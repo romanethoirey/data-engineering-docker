@@ -4,6 +4,11 @@ import sys
 analyser = SentimentIntensityAnalyzer()
 
 def score(sentence):
+    """
+    Function that classifies the sentiment in a sentence.
+    Parameters:
+        - Sentence : the string of the sentence
+    """
     if is_pos(sentence):
         print('The sentence is positive.')
         return 'Positive'
