@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-import json
 from sentiment_analysis import score
 
 app = Flask(__name__)
