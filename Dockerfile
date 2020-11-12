@@ -6,6 +6,8 @@ WORKDIR /home
 COPY requirements.txt .
 
 ENV FLASK_APP=app.py
+ENV FLASK_ENV=development
+ENV TEMPLATES_AUTO_RELOAD = True
 
 RUN pip install -r requirements.txt
 
