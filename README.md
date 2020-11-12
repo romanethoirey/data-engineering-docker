@@ -11,6 +11,5 @@ Here is the Trello link for the Task Managment : https://trello.com/b/nXEt9SgQ/d
 We used Docker to package our project. To run the Docker Image : 
 
 ```sh
-$ docker build
-$ docker-compose up
+$ docker-compose up --build
 ```
